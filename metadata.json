@@ -1,0 +1,8 @@
+{
+  "description": "Add a volume button for ALSA",
+  "name": "Alsa Volume Bar",
+  "shell-version": ["41"],
+  "url": "https://github.com/florentdescroix/alsavolbar",
+  "uuid": "alsavolbar@florentdescroix@github.com",
+  "version": 1.0
+}
