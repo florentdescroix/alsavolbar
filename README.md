@@ -5,8 +5,8 @@ Gnome extension that adds a volume bar for ALSA
 Copy all the files in ~/.local/share/gnome-shell/extensions/alsavolbar@florentdescroix@github.com
 
 # Configuration
-The extension detects any ALSA volume change, system wide.
-So you can, for instance, specify some new Hotkey via the Gnome settings.
+The extension detects any ALSA volume change, system wide.  
+So you can, for instance, specify some new Hotkey via the Gnome settings.  
 Here are some useful command :
 * Mute : `amixer sset Master mute`
 * Unmute : `amixer sset Master unmute`
@@ -24,8 +24,8 @@ The extension so far only alter and listen the Master control.
 * Add a button to quickly access those settings
 
 # How to disable PulseAudio (if wanted)
-Disable the `pulseAudio` startup with this command
-`# mv /etc/xdg/autostart/pulseaudio.desktop /etc/xdg/autostart/pulseaudio.desktop.bak`
+Disable the `pulseAudio` startup with this command  
+`# mv /etc/xdg/autostart/pulseaudio.desktop /etc/xdg/autostart/pulseaudio.desktop.bak`  
 Then disable the services
 ```
 systemctl --user disable pulseaudio.socket
